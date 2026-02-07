@@ -51,7 +51,7 @@ local INTERESTING_CLASSES = {
     BrickColorValue = true
 }
 
-local MAX_PARTS_PER_NODE = 25
+local MAX_PARTS_PER_NODE = 100
 
 local function safeGetService(name)
     local ok, svc = pcall(function()
