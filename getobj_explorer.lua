@@ -11,6 +11,9 @@ local ROOT_SERVICES = {
     "StarterPlayer",
     "Lighting",
     "SoundService",
+    "Teams",
+    "Team",
+    "StarterPack",
     "Chat"
 }
 
@@ -21,6 +24,14 @@ local INTERESTING_CLASSES = {
     Part = true,
     MeshPart = true,
     UnionOperation = true,
+    Player = true,
+    StarterGear = true,
+    Backpack = true,
+    TouchTransmitter = true,
+    SpecialMesh = true,
+    Sound = true,
+    PlayerGui = true,
+    PlayerScripts = true,
 
     Tool = true,
 
@@ -39,6 +50,8 @@ local INTERESTING_CLASSES = {
     TextLabel = true,
     ImageButton = true,
     ImageLabel = true,
+    ScrollingFrame = true,
+    UICorner = true,
 
     BoolValue = true,
     IntValue = true,
